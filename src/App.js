@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <p className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -16,9 +16,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Hello World! How are you today?
         </a>
-      </header>
+        <p>I see we're going to be making a social-media clone this week. Maybe a meme video competition?</p>
+        <h2>Did you see the new Uncle Roger video? :'D</h2>
+      </p>
     </div>
   );
 }
